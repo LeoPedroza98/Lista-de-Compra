@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lista De Compras - AT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="titulo_cadastro">Cadastro dos Produtos</string>
+    <string name="nome_produto">Nome do Produto</string>
+    <string name="quantidade_produto">Quantidade</string>
+    <string name="valor_produto">Valor</string>
+    <string name="link_produto">Link do Produto</string>
+    <string name="cadastro_button">Cadastrar</string>
+    <string name="titulo_lista">Minha Lista de Compras</string>
+    <string name="perfil_produto">Perfil do Produto</string>
+</resources>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintPerfilProduto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.PerfilProdutoFragment">
+
+
+    <TextView
+        android:id="@+id/titleTextProduto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/perfil_produto"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textNomeProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="337dp"
+        android:layout_marginRight="337dp"
+        android:text="@string/nome_produto"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextProduto" />
+
+    <TextView
+        android:id="@+id/textViewProduto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:gravity="center"
+        android:hint="@string/nome_produto"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textNomeProduto"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextProduto" />
+
+    <TextView
+        android:id="@+id/textQuantidadeProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="76dp"
+        android:gravity="center"
+        android:text="@string/quantidade_produto"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textNomeProduto" />
+
+    <TextView
+        android:id="@+id/textoViewQuantidade"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:gravity="center"
+        android:hint="@string/quantidade_produto"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textQuantidadeProduto"
+        app:layout_constraintTop_toBottomOf="@+id/textNomeProduto" />
+
+    <TextView
+        android:id="@+id/textValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="78dp"
+        android:text="@string/valor_produto"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textQuantidadeProduto" />
+
+    <TextView
+        android:id="@+id/textViewValor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="78dp"
+        android:gravity="center"
+        android:hint="@string/valor_produto"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textValor"
+        app:layout_constraintTop_toBottomOf="@+id/textQuantidadeProduto" />
+
+    <ImageButton
+        android:id="@+id/btnEditProduto"
+        android:layout_width="0dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="404dp"
+        android:background="#605D5D"
+        android:src="@android:drawable/ic_menu_edit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextProduto" />
+
+    <ImageButton
+        android:id="@+id/btnDeleteProduto"
+        android:layout_width="0dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="48dp"
+        android:background="#605D5D"
+        android:src="@android:drawable/ic_menu_delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEditProduto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

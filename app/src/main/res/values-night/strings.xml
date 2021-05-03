@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="titulo_cadastro">Cadastro dos Produtos</string>
+    <string name="nome_produto">Nome do Produto</string>
+    <string name="quantidade_produto">Quantidade</string>
+    <string name="valor_produto">Valor</string>
+    <string name="link_produto">Link do Produto</string>
+    <string name="cadastro_button">Cadastrar</string>
+    <string name="titulo_lista">Minha Lista de Compras</string>
+    <string name="perfil_produto">Perfil do Produto</string>
+</resources>

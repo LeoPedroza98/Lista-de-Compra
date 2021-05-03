@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/listProdutoFragment2">
+    <fragment
+        android:id="@+id/listProdutoFragment2"
+        android:name="com.pedroza.listadecompras_at.fragments.ListProdutoFragment"
+        android:label="fragment_list_produto"
+        tools:layout="@layout/fragment_list_produto" />
+    <fragment
+        android:id="@+id/adicionaProdutoFragment2"
+        android:name="com.pedroza.listadecompras_at.fragments.AdicionaProdutoFragment"
+        android:label="fragment_adiciona_produto"
+        tools:layout="@layout/fragment_adiciona_produto" />
+    <fragment
+        android:id="@+id/perfilProdutoFragment2"
+        android:name="com.pedroza.listadecompras_at.fragments.PerfilProdutoFragment"
+        android:label="fragment_perfil_produto"
+        tools:layout="@layout/fragment_perfil_produto" />
+</navigation>
